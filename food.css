@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:ital,wght@0,100;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+:root{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEE;
+    box-sizing: border-box;
+    
+}
+/*strat navbar*/
+.container .navbar-brand{
+    padding-left: 15px;
+    text-transform: capitalize;
+    color: rgb(233, 17, 17);
+    
+    }
+    .container .navbar-nav .nav-item .nav-link{
+        color: rgb(233, 17, 17);
+        text-transform: capitalize;
+        box-shadow: 10px black;
+    }
+    .container .navbar-nav .nav-item .nav-link:hover{
+        color: black;
+    }
+/*end navbar*/
+
+/*strat section*/
+
+
+ .header .main .card{
+     margin-top: 20px;
+     border: none;
+     padding: 20px;
+ }
+ 
+ 
+
+
+/*end section*/
+
+/*strat speciality*/
+.heading{
+   display: flex;
+   justify-content: center;
+   text-transform: capitalize;
+  font-weight: 500;
+  font-family:'Poppins', sans-serif; 
+  border-top:  1px solid rgb(233, 17, 17) ;
+  
+  position: relative;
+
+}
+
+/*strat speciality*/
+.row .col .card-body .pric{
+   position: absolute;
+   top: 0rem; left:0rem;
+   background: red;
+   color: #fff;
+   font-size: 2rem;
+   padding: 0.2rem;
+   border-radius: 0.2rem;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+/*end speciality*/
+
+/* start Popular*/
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 500;
+  font-family:'Poppins', sans-serif; 
+  border-top:  1px solid rgb(233, 17, 17) ;
+   
+}
+/* Start Reviwe*/
+.header_reviwe .card-title{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+   
+
+}
+.row .col .card-img-top{
+    display: grid;
+    justify-content: center;
+    right: 50px;
+    margin: 50px;
+}
+
+/*end Reviwe*/
+/*Start Order*/
+.header_Ordre .card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 500;
+  font-family:'Poppins', sans-serif; 
+  border-top:  1px solid rgb(233, 17, 17) ;
+   
+}
+.card .row .col{
+    height: 100%;
+  width:100%;
+  object-fit: cover;
+  border-radius: .5rem;
+}
+.order{
+    padding: 2rem;
+    box-shadow: 0.5rem  1rem rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    
+}
+.order .imges{
+    flex: 1 1 30rem;
+}
+.order .imges img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:0.5rem ;
+} 
+
+
+
+/*end Order*/
+/*strat  contact*/
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 500;
+  font-family:'Poppins', sans-serif; 
+  border-top:  1px solid rgb(233, 17, 17) ;
+}
+/*end contant*/
+
+
+
+
+
+  
+   
+
+
+
+   
+    
+  
+ 
+    
+
+
+   
+
+
+
+
+
+
+
